@@ -2,7 +2,7 @@
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
-  animation: escribir 2s steps(5) forwards;
+  animation: escribir 3s steps(5) forwards;
   color: white;
   z-index: 9999;
   top: 10%; /* Coloca el mensaje en la parte superior de la pantalla */
@@ -10,7 +10,7 @@
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0;
   animation-delay: 3s; /* Agrega un retraso de 10 segundos antes de que comience la animación */
-
+  text-align: center;
 }
 
 @keyframes escribir {
